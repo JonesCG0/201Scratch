@@ -1,0 +1,44 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: darkgray;
+    color: red;
+}
+a:visited {
+    color: azure;
+}
+
+.img-01 {
+    display: block;
+    border: 5px outset red;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 50%
+}
+
+.header-01 {
+    border: 5px outset red;
+    background-color: rgb(4, 68, 90);
+    text-align: center;
+}
+
+.footer-01{
+    border: 2px outset red;
+    background-color: rgb(4, 68, 90);
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+    font-size: small;
+    z-index: 1;
+}
+
+.video-container {
+    text-align: center;
+}
+
+.video-container iframe {
+    display: inline-block;
+    border: 5px outset red;
+}
